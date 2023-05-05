@@ -3,26 +3,29 @@ namespace OOP_Day1_Homework
 {
 	public class FactorialWithRec
 	{
-        public uint GetUserInput()
+        public uint GetUserInput() //rename RunCalcFactorial
         {
-            Console.WriteLine("Please inptut an integer: ");
-            if (UInt32.TryParse(Console.ReadLine(), out uint number))
+            do // the code block put into do while for gettin infinite cycle. we will not need to repeat the code from main.
             {
-                switch (number)
+                Console.WriteLine("Please inptut an integer: ");
+                if (UInt32.TryParse(Console.ReadLine(), out uint number))
                 {
-                    case 1:
-                        return 1;  
-                    case 2:
-                        return 2;
-                    default:
-                        return FactorialCalc(number);
+                    switch (number)
+                    {
+                        case 1:
+                            return 1;
+                        case 2:
+                            return 2;
+                        default:
+                            return FactorialCalc(number);
+                    }
                 }
-            }
-            else
-            {
-                GetUserInput();
-                return 0;
-            }
+                else
+                {
+                    GetUserInput();
+                    return 0;
+                }
+            } while (true);
         }
        
 

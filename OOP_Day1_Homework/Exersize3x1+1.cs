@@ -1,43 +1,42 @@
 ﻿using System;
 namespace OOP_Day1_Homework
 {
-	public class Exersize3x1_1
-	{
-       public int Formula(int x)
+    /// <summary>
+    /// <Description.Two main methods: one for number odd/even checker, one for inFormula putter></Description>
+    /// </summary>
+    public class Exersize3x1_1
+    {
+        public int RunExersizeCheck(int number)
         {
-            if (x == 1)
-                return x;
-
-            else
+            if (number % 2 == 0)
             {
-                x = 3*x + 1;
-                Console.WriteLine(x);
-
-                if (x != 1)
-                    Secuence(x);
-                else
-                    Formula(x);
+                return RunExersizeCheck(number / 2);
             }
-            return 00;
+            else
 
+                return Excersize(number);
         }
 
 
-       public int Secuence(int n)
+        public int Excersize(int n)
         {
-            if (n % 2 != 0)
+   
+            if (n==1)
             {
-                n /= 2;
-                Formula(n);
+                Console.WriteLine(1);
+                return 1;
             }
-
-
             else
-                Formula(n);
-            return 00;
+            {
+                n = 3 * n + 1;
+                Console.WriteLine(n);
+
+                return RunExersizeCheck(n);
+
+            }
         }
-
-
     }
 }
+
+
 

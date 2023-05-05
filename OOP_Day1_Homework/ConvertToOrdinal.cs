@@ -41,7 +41,10 @@ namespace OOP_Day1_Homework
             {
                 Console.WriteLine("13th");
             }
-
+            /*
+             * write exceptions for ex.113th also.
+             * 
+             */
             else
             {
                 string num = number.ToString();
