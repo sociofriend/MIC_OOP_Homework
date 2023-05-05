@@ -47,17 +47,17 @@ namespace OOP_Day1_Homework
                 string num = number.ToString();
                 char lastNum = num[num.Length - 1];
 
-                if(lastNum.Equals("1"))
+                if (lastNum.Equals('1'))
                 {
-                    Console.WriteLine(num+"st");
+                    Console.WriteLine(num + "st");
                 }
 
-                else if (lastNum.Equals("2"))
+                else if (lastNum.Equals('2'))
                 {
                     Console.WriteLine(num + "nd");
                 }
 
-                else if (lastNum.Equals("3"))
+                else if (lastNum.Equals('3'))
                 {
                     Console.WriteLine(num + "rd");
                 }
