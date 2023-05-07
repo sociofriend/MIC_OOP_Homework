@@ -9,12 +9,16 @@ namespace OOP_Day2_Homework
 		{
 			string[] firstLastRow = new string[] {" ",  "a", "b", "c", "d", "e", "f", "g", "h", " "};
 			int[] firstLastColoumn = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-			string[] lightDarkRow = new string[] {"@", "#", "@", "#", "@", "#", "@", "#"};
-			string[] darkLightRow = new string[] {"#", "@", "#", "@", "#", "@", "#", "@"};
 
-			Console.WriteLine(string.Join(" ",firstLastRow));
+			const string darkCell = "@";
+			const string lightCell = "#";
 
-			// light cell = @; dark cell = #
+			string[] lightDarkRow = new string[] { darkCell, lightCell, darkCell, lightCell, darkCell, lightCell, darkCell, lightCell };
+			string[] darkLightRow = new string[] { lightCell, darkCell, lightCell, darkCell, lightCell, darkCell, lightCell, darkCell };
+
+            Console.WriteLine(string.Join(" ",firstLastRow));
+
+
 
 			for(int i = 2; i<=9; i++)
 			{
