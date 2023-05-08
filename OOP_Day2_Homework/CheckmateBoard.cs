@@ -16,9 +16,9 @@ namespace OOP_Day2_Homework
 			string[] lightDarkRow = new string[] { darkCell, lightCell, darkCell, lightCell, darkCell, lightCell, darkCell, lightCell };
 			string[] darkLightRow = new string[] { lightCell, darkCell, lightCell, darkCell, lightCell, darkCell, lightCell, darkCell };
 
+           
+
             Console.WriteLine(string.Join(" ",firstLastRow));
-
-
 
 			for(int i = 2; i<=9; i++)
 			{
