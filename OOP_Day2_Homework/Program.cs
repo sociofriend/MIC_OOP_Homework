@@ -3,18 +3,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        #region CheckmateBoard - print manual
-        //CheckmateBoard objBoard = new CheckmateBoard();
-        //objBoard.PrintCheckmatBoard();
-        #endregion
-
-        #region CheckmateBoard - print mroe structured
-        //CheckmateBoard2 objBoard = new CheckmateBoard2();
-        #endregion
-
         #region CheckmateBoard - vector  
-        CheckmateBoardVector objVector = new CheckmateBoardVector();
+        //CheckmateBoardVector objVector = new CheckmateBoardVector();
         #endregion
+
+        #region CheckmateBoard - print with two dimensions
+        //CheckmateBoard_2dimensionArray objB = new CheckmateBoard_2dimensionArray();
+        //objB.PrintCheckmatBoard2d();
+        #endregion
+
+        #region CheckmateBoard - print given figure in cell with given coordinates
+        CheckmateFiguresPreview objPreview = new CheckmateFiguresPreview();
+        #endregion
+
 
     }
 }
