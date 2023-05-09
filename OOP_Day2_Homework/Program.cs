@@ -13,7 +13,7 @@ class Program
         #endregion
 
         #region CheckmateBoard - print given figure in cell with given coordinates
-        CheckmateFiguresPreview objPreview = new CheckmateFiguresPreview();
+        check
         #endregion
 
 

@@ -11,7 +11,7 @@ namespace OOP_Day2_Homework
         void PrintFirstLastRow()
         {
             Console.Write("  ");
-            for(char a = (char)97; a <= (char)104; a++)
+            for (char a = (char)97; a <= (char)104; a++)
             {
                 Console.Write(a + " ");
             }
@@ -35,7 +35,7 @@ namespace OOP_Day2_Homework
                     }
                 }
                 Console.BackgroundColor = ConsoleColor.White;
-                Console.WriteLine(i+1);
+                Console.WriteLine(i + 1);
             }
         }
 
@@ -57,7 +57,7 @@ namespace OOP_Day2_Homework
             PrintFirstLastRow();
             Console.ReadKey();
         }
-        
+
     }
 }
 
