@@ -3,7 +3,6 @@ namespace OOP_Day3_Homework
 {
 	public class FigurePreview
 	{		
-
         void PrintFirstLastRow()
         {
             Console.Write("  ");
@@ -22,7 +21,6 @@ namespace OOP_Day3_Homework
                 Console.BackgroundColor = darkCell;
                 Console.Write(cellValue);
             }
-
             else
             {
                 ConsoleColor lightCell = ConsoleColor.White;
@@ -62,7 +60,7 @@ namespace OOP_Day3_Homework
                 }
             }
 
-        public void PrintCheckmatBoard2d(string figure, int columnCommand, int rowCommand)
+        void PrintCheckmatBoard2d(string figure, int columnCommand, int rowCommand)
         {
             PrintFirstLastRow();
             PrintBoardBody(figure, columnCommand, rowCommand);
@@ -89,7 +87,7 @@ namespace OOP_Day3_Homework
         void GetCoordinates(string figure)
         {
             Console.WriteLine("Input command, where first symbol is a letter " +
-                "from a to h and second command is a number from 1 to 8 (ex.a8)");
+                "from ՛a՛ to ՛h՛ and second command is a number from ՛1՛ to ՛8՛ (ex.a8)");
             string coordinates = Console.ReadLine();
 
             if ((coordinates[0] >= 97 && coordinates[0] <= 104) && 
@@ -103,7 +101,7 @@ namespace OOP_Day3_Homework
             }
         }
 
-        public void PrintFigureOnBoard(string fig, string cord)
+        void PrintFigureOnBoard(string fig, string cord)
         {
             string commands = "abcdefgh";
             int columnCommand=0;
