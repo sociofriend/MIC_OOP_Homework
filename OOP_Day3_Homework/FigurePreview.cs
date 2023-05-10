@@ -91,9 +91,9 @@ namespace OOP_Day3_Homework
             string coordinates = Console.ReadLine();
 
             if ((coordinates[0] >= 97 && coordinates[0] <= 104) && 
-                (coordinates[1] >= 49 && coordinates[0] <= 156))
+                (coordinates[1] >= 49 && coordinates[1] <= 56))
             {
-                PrintFigureOnBoard(figure, coordinates);
+                PrintFigureOnBoard(figure, coordinates[0], coordinates[1]);
             }
             else
             {
@@ -101,26 +101,21 @@ namespace OOP_Day3_Homework
             }
         }
 
-        void PrintFigureOnBoard(string fig, string cord)
+        void PrintFigureOnBoard(string fig, char letter, char number)
         {
-            string commands = "abcdefgh";
             int columnCommand=0;
             int count = 0;
-            foreach (char letter in commands)
+            for (char i = (char)97; i<= (char)104; i++ )
             {
                 count++;
-                if (cord[0].Equals(letter))
+                if (i.Equals(letter))
                 {
                     columnCommand = count;
                     break;
                 }
-                else
-                {
-                    GetCoordinates(fig);
-                }
             }
 
-            int rowCommand = (int)cord[1] - 48;
+            int rowCommand = (int)number - 48;
             PrintCheckmatBoard2d(fig, columnCommand, rowCommand);
         }
     }
