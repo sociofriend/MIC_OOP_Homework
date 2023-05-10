@@ -65,7 +65,8 @@ namespace OOP_Day3_Homework
             PrintFirstLastRow();
             PrintBoardBody(figure, columnCommand, rowCommand);
             PrintFirstLastRow();
-            Console.ReadKey();
+            Console.WriteLine();
+            GetFigure();
         }
 
         public void GetFigure()
@@ -88,7 +89,7 @@ namespace OOP_Day3_Homework
         {
             Console.WriteLine("Input command, where first symbol is a letter " +
                 "from ՛a՛ to ՛h՛ and second command is a number from ՛1՛ to ՛8՛ (ex.a8)");
-            string coordinates = Console.ReadLine();
+            string coordinates = Console.ReadLine().ToLower();
 
             if ((coordinates[0] >= 97 && coordinates[0] <= 104) && 
                 (coordinates[1] >= 49 && coordinates[1] <= 56))
