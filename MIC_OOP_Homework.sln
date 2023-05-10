@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Day1_Homework", "OOP_Day1_Homework\OOP_Day1_Homework.csproj", "{0D68E857-D403-46AE-AF5C-5DE0B7C4B5B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixTasksLilitAvdalyan20230510001", "OOP_Day1_Homework\SixTasksLilitAvdalyan20230510001.csproj", "{0D68E857-D403-46AE-AF5C-5DE0B7C4B5B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{74472F38-AAF3-4022-B97A-D4D23866F15A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Day2_Homework", "OOP_Day2_Homework\OOP_Day2_Homework.csproj", "{B1C63465-BA5D-4141-8524-6BA59DE81967}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBoardLilitAvdalyan20230508002", "OOP_Day2_Homework\ChessBoardLilitAvdalyan20230508002.csproj", "{B1C63465-BA5D-4141-8524-6BA59DE81967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Day3_Homework", "OOP_Day3_Homework\OOP_Day3_Homework.csproj", "{2D741D78-FD7B-4EE3-A022-C66204809388}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessLilitAvdalyan20230510003", "OOP_Day3_Homework\ChessLilitAvdalyan20230510003.csproj", "{2D741D78-FD7B-4EE3-A022-C66204809388}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

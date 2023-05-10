@@ -1,5 +1,5 @@
 ﻿using System;
-namespace OOP_Day3_Homework
+namespace ChessLilitAvdalyan20230510003
 {
 	public class FigurePreview
 	{		

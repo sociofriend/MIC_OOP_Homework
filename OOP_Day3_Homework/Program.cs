@@ -1,4 +1,4 @@
-﻿namespace OOP_Day3_Homework;
+﻿namespace ChessLilitAvdalyan20230510003;
 class Program
 {
     static void Main(string[] args)
