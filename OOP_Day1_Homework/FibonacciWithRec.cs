@@ -32,7 +32,7 @@ namespace SixTasksLilitAvdalyan20230510001
         //}
         #endregion
 
-        //try
+        
         #region Method 3, with recursion, print the secuence for  0 to n-th number of the secuences
 
         public void FibNumber()

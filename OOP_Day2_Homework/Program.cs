@@ -7,16 +7,10 @@ class Program
         //CheckmateBoardVector objVector = new CheckmateBoardVector();
         #endregion
 
-        #region CheckmateBoard - print with two dimensions
+        #region CheckmateBoard - print with two dimensions array / loop
         //CheckmateBoard_2dimensionArray objB = new CheckmateBoard_2dimensionArray();
         //objB.PrintCheckmatBoard2d();
         #endregion
-
-        #region CheckmateBoard - print given figure in cell with given coordinates
-
-        #endregion
-
-
     }
 }
 
