@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace OOP_Day2_Homework
+namespace ChessBoardLilitAvdalyan20230508002
 {
     /// <summary>
     /// Produced by Open AI - ChatGPT

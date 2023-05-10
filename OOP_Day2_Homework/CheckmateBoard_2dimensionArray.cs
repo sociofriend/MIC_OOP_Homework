@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace OOP_Day2_Homework
+namespace ChessBoardLilitAvdalyan20230508002
 {
     public class CheckmateBoard_2dimensionArray
     {

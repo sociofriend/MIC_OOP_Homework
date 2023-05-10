@@ -1,5 +1,5 @@
 ﻿using System;
-namespace OOP_Day1_Homework
+namespace SixTasksLilitAvdalyan20230510001
 {
     /// <summary>
     /// <Description.Two main methods: one for number odd/even checker, one for inFormula putter></Description>

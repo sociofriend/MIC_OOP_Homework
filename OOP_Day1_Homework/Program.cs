@@ -1,6 +1,6 @@
 ﻿using TriggerMe;
 
-namespace OOP_Day1_Homework;
+namespace SixTasksLilitAvdalyan20230510001;
 class Program
 {
     static void Main(string[] args)
