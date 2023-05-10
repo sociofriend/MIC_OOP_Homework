@@ -14,17 +14,21 @@ namespace OOP_Day3_Homework
             Console.WriteLine();
         }
 
-        void PrintLight()
+        void PrintBackground(string cellValue, int i, int j)
         {
-            ConsoleColor lightCell = ConsoleColor.White;
-            Console.BackgroundColor = lightCell;
-            Console.Write("  ");
-        }
-        void PrintDark()
-        {
-            ConsoleColor darkCell = ConsoleColor.Black;
-            Console.BackgroundColor = darkCell;
-            Console.Write("  ");
+            if ((i + j) % 2 == 0)
+            {
+                ConsoleColor darkCell = ConsoleColor.Black;
+                Console.BackgroundColor = darkCell;
+                Console.Write(cellValue);
+            }
+
+            else
+            {
+                ConsoleColor lightCell = ConsoleColor.White;
+                Console.BackgroundColor = lightCell;
+                Console.Write(cellValue);
+            }
         }
 
         void PrintBoardBody(string figure, int columnCommand, int rowCommand)
@@ -34,36 +38,22 @@ namespace OOP_Day3_Homework
 
             for (int i = 0; i < 8; i++)
             {
-                int countColumn = 1;
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.Write(i + 1);
+                int countColumn = 1;
 
-                if (countColumn == columnCommand && countRow == rowCommand)
-                    Console.Write(figure);
                 
                 for (int j = 0; j < 8; j++)
                 {
-                    if ((i + j) % 2 == 0)
+                    if (countColumn == columnCommand && countRow == rowCommand)
                     {
-                        if (countColumn == columnCommand && countRow == rowCommand)
-                            Console.Write(figure+" ");
-                        else
-                        {
-                            PrintDark();
-                            countColumn++;
-                        }
-                            
+                        PrintBackground(figure + " ", i, j);
+                        j++;
                     }
-                    else
-                    {
-                        if (countColumn == columnCommand && countRow == rowCommand)
-                            Console.Write(figure + " ");
-                        else
-                        {
-                            PrintLight();
-                            countColumn++;
-                        }
-                    }           
+
+                    PrintBackground("  ", i, j);
+                    countColumn++;
+       
                 }
                     countRow++;
                     Console.BackgroundColor = ConsoleColor.White;
@@ -71,8 +61,6 @@ namespace OOP_Day3_Homework
                     countColumn++;
                 }
             }
-        
-
 
         public void PrintCheckmatBoard2d(string figure, int columnCommand, int rowCommand)
         {
@@ -98,29 +86,25 @@ namespace OOP_Day3_Homework
                 GetFigure();
         }
 
-        void GetCoordinates(string letter)
+        void GetCoordinates(string figure)
         {
-            string figure = letter;
-
             Console.WriteLine("Input command, where first symbol is a letter " +
                 "from a to h and second command is a number from 1 to 8 (ex.a8)");
             string coordinates = Console.ReadLine();
-            string letters = "abcdefgh";
-            string numbers = "12345678";
 
-            if (letters.Contains(coordinates[0]) && numbers.Contains(coordinates[1]))
+            if ((coordinates[0] >= 97 && coordinates[0] <= 104) && 
+                (coordinates[1] >= 49 && coordinates[0] <= 156))
             {
                 PrintFigureOnBoard(figure, coordinates);
             }
             else
             {
-                GetCoordinates(letter);
+                GetCoordinates(figure);
             }
         }
 
-        void PrintFigureOnBoard(string fig, string cord)
+        public void PrintFigureOnBoard(string fig, string cord)
         {
-            string figure = fig;
             string commands = "abcdefgh";
             int columnCommand=0;
             int count = 0;
