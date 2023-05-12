@@ -1,5 +1,6 @@
 ﻿using System;
 using ChessVersion3LibLilitAvdalyan20230511004;
+
 namespace ChessVersion3ConsoleLilitAvdalyan20230511004
 {
     public class Chess
