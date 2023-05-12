@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OOP_Day4_Homework\ChessVersion3LibLilitAvdalyan20230511004\ChessVersion3LibLilitAvdalyan20230511004.csproj" />
+  </ItemGroup>
+</Project>

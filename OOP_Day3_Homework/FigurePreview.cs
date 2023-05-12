@@ -1,8 +1,13 @@
 ﻿using System;
-namespace ChessLilitAvdalyan20230510003
+namespace ChessVersion2LilitAvdalyan20230510003
 {
-	public class FigurePreview
+    // use indexOf
+    public class FigurePreview
 	{		
+        // add all descriptions for methods
+        /// <summary>
+        /// Prints first and last rows of the board( A B C D .. H)
+        /// </summary>
         void PrintFirstLastRow()
         {
             Console.Write("  ");
@@ -69,6 +74,7 @@ namespace ChessLilitAvdalyan20230510003
             GetFigure();
         }
 
+        // wrong input -> new message
         public void GetFigure()
         {
             Console.WriteLine("Choose a figure: press R for rook, N " +
@@ -85,10 +91,11 @@ namespace ChessLilitAvdalyan20230510003
                 GetFigure();
         }
 
+        // F5 upper F does not work. add "wrong command" new message . add {||) in if body
         void GetCoordinates(string figure)
         {
             Console.WriteLine("Input command, where first symbol is a letter " +
-                "from ՛a՛ to ՛h՛ and second command is a number from ՛1՛ to ՛8՛ (ex.a8)");
+                "from ՛a՛ to ՛h՛ and second command is a number from ՛1՛ to ՛8՛ (ex.a8 or H1)");
             string coordinates = Console.ReadLine().ToLower();
 
             if ((coordinates[0] >= 97 && coordinates[0] <= 104) && 
@@ -102,6 +109,7 @@ namespace ChessLilitAvdalyan20230510003
             }
         }
 
+        // փոխել i, j-ով, երկու փոփոխական պետք չի. անունները վերանայել, ijն է դուրս բերում, երկչափ զանգված
         void PrintFigureOnBoard(string fig, char letter, char number)
         {
             int columnCommand=0;

@@ -1,4 +1,4 @@
-﻿namespace ChessLilitAvdalyan20230510003;
+﻿namespace ChessVersion2LilitAvdalyan20230510003;
 class Program
 {
     static void Main(string[] args)

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace ChessBoardLilitAvdalyan20230508002
+namespace ChessVersion1LilitAvdalyan20230508002
 {
     /// <summary>
     /// Produced by Open AI - ChatGPT

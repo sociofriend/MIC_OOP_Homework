@@ -7,9 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixTasksLilitAvdalyan202305
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{74472F38-AAF3-4022-B97A-D4D23866F15A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBoardLilitAvdalyan20230508002", "OOP_Day2_Homework\ChessBoardLilitAvdalyan20230508002.csproj", "{B1C63465-BA5D-4141-8524-6BA59DE81967}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessVersion1LilitAvdalyan20230508002", "OOP_Day2_Homework\ChessVersion1LilitAvdalyan20230508002.csproj", "{B1C63465-BA5D-4141-8524-6BA59DE81967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessLilitAvdalyan20230510003", "OOP_Day3_Homework\ChessLilitAvdalyan20230510003.csproj", "{2D741D78-FD7B-4EE3-A022-C66204809388}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessVersion2LilitAvdalyan20230510003", "OOP_Day3_Homework\ChessVersion2LilitAvdalyan20230510003.csproj", "{2D741D78-FD7B-4EE3-A022-C66204809388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessVersion3LibLilitAvdalyan20230511004", "OOP_Day4_Homework\ChessVersion3LibLilitAvdalyan20230511004\ChessVersion3LibLilitAvdalyan20230511004.csproj", "{2448B42F-41D4-4578-BDE5-F46876E33C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessVersion3ConsoleLilitAvdalyan20230511004", "ChessVersion3ConsoleLilitAvdalyan20230511004\ChessVersion3ConsoleLilitAvdalyan20230511004.csproj", "{6177FAF3-349E-4BD8-8C42-AC659192493D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{2D741D78-FD7B-4EE3-A022-C66204809388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D741D78-FD7B-4EE3-A022-C66204809388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D741D78-FD7B-4EE3-A022-C66204809388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2448B42F-41D4-4578-BDE5-F46876E33C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2448B42F-41D4-4578-BDE5-F46876E33C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2448B42F-41D4-4578-BDE5-F46876E33C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2448B42F-41D4-4578-BDE5-F46876E33C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6177FAF3-349E-4BD8-8C42-AC659192493D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6177FAF3-349E-4BD8-8C42-AC659192493D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6177FAF3-349E-4BD8-8C42-AC659192493D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6177FAF3-349E-4BD8-8C42-AC659192493D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
