@@ -15,12 +15,12 @@ public class ChessLib
     {
         if ((i + j) % 2 == 0)
         {
-            Console.BackgroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.Write(cellValue);
         }
         else
         {
-            Console.BackgroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write(cellValue);
         }
     }
