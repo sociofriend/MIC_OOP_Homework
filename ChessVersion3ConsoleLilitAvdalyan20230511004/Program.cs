@@ -3,7 +3,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Chess objBoard = new Chess();
-        objBoard.RunChess();
+        Console.WriteLine("Hello, World!");
     }
 }
+

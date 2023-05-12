@@ -7,7 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ChessVersion3LibLilitAvdalyan20230511004\ChessVersion3LibLilitAvdalyan20230511004.csproj" />
-  </ItemGroup>
 </Project>

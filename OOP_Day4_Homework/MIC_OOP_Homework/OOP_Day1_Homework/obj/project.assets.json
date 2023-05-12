@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "TriggerMe.VATChecker/0.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TriggerMe.VATChecker.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TriggerMe.VATChecker.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TriggerMe.VATChecker/0.0.3": {
+      "sha512": "GV0okncgoHY3XFNZRzvgXLYVVi26JEYn2TyC2b96ISq7Yx3M9tmDEkzqlOTwl7VO60ejQXwm2rngInbAQxe2aw==",
+      "type": "package",
+      "path": "triggerme.vatchecker/0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TriggerMe.VATChecker.dll",
+        "lib/netstandard2.0/TriggerMe.VATChecker.xml",
+        "triggerme.vatchecker.0.0.3.nupkg.sha512",
+        "triggerme.vatchecker.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "TriggerMe.VATChecker >= 0.0.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/lilitavdalyan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/lilitavdalyan/Desktop/MIC C sharp classes/MIC_OOP_Homework/OOP_Day4_Homework/MIC_OOP_Homework/OOP_Day1_Homework/SixTasksLilitAvdalyan20230510001.csproj",
+      "projectName": "SixTasksLilitAvdalyan20230510001",
+      "projectPath": "/Users/lilitavdalyan/Desktop/MIC C sharp classes/MIC_OOP_Homework/OOP_Day4_Homework/MIC_OOP_Homework/OOP_Day1_Homework/SixTasksLilitAvdalyan20230510001.csproj",
+      "packagesPath": "/Users/lilitavdalyan/.nuget/packages/",
+      "outputPath": "/Users/lilitavdalyan/Desktop/MIC C sharp classes/MIC_OOP_Homework/OOP_Day4_Homework/MIC_OOP_Homework/OOP_Day1_Homework/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/lilitavdalyan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "TriggerMe.VATChecker": {
+            "target": "Package",
+            "version": "[0.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

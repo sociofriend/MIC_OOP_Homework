@@ -8,6 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChessVersion3LibLilitAvdalyan20230511004\ChessVersion3LibLilitAvdalyan20230511004.csproj" />
+    <ProjectReference Include="..\OOP_Day4_Homework\ChessVersion3LibLilitAvdalyan20230511004\ChessVersion3LibLilitAvdalyan20230511004.csproj" />
   </ItemGroup>
 </Project>

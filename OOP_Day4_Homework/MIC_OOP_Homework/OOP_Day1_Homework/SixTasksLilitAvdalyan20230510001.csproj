@@ -8,6 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChessVersion3LibLilitAvdalyan20230511004\ChessVersion3LibLilitAvdalyan20230511004.csproj" />
+    <PackageReference Include="TriggerMe.VATChecker" Version="0.0.3" />
   </ItemGroup>
 </Project>
