@@ -21,7 +21,6 @@ namespace SixTasksLilitAvdalyan20230510001
             {
                 GetUserInput();
             }
-
         }
 
         public void CardinalToOrdinal(int number)
@@ -41,10 +40,7 @@ namespace SixTasksLilitAvdalyan20230510001
             {
                 Console.WriteLine("13th");
             }
-            /*
-             * write exceptions for ex.113th also.
-             * 
-             */
+ 
             else
             {
                 string num = number.ToString();
@@ -53,21 +49,29 @@ namespace SixTasksLilitAvdalyan20230510001
                 if (lastNum.Equals('1'))
                 {
                     Console.WriteLine(num + "st");
+                    Console.WriteLine();
+                    GetUserInput();
                 }
 
                 else if (lastNum.Equals('2'))
                 {
                     Console.WriteLine(num + "nd");
+                    Console.WriteLine();
+                    GetUserInput();
                 }
 
                 else if (lastNum.Equals('3'))
                 {
                     Console.WriteLine(num + "rd");
+                    Console.WriteLine();
+                    GetUserInput();
                 }
 
                 else 
                 {
                     Console.WriteLine(num + "th");
+                    Console.WriteLine();
+                    GetUserInput();
                 }
             }
                 
