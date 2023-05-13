@@ -5,6 +5,10 @@ namespace ChessVersion3ConsoleLilitAvdalyan20230511004
 {
     public class Chess
     {
+
+        // keep hotkeys for input in enum, oversee the combinations(Eg.(18 = 16 byte + 2 byte))
+        // Bishop: show legal steps on board
+
         /// <summary>
         /// Runs GetFigure(), GetCoordinates() and PrintBoard(string figure, int[] coordinates) methods.
         /// Prints the board with given figure on given coordinates' cell.
@@ -39,6 +43,7 @@ namespace ChessVersion3ConsoleLilitAvdalyan20230511004
             }
         }
 
+    
         /// <summary>
         /// Gets user input on coordinates for identifying on which chell to print the figure.
         /// </summary>
@@ -63,6 +68,7 @@ namespace ChessVersion3ConsoleLilitAvdalyan20230511004
             }
         }
 
+      
         /// <summary>
         /// Prints the chess board with user inputs for figure and coordinates. For chess common features uses ChessLib
         /// </summary>
