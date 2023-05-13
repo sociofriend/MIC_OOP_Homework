@@ -36,22 +36,26 @@ namespace ChessVersion1LilitAvdalyan20230508002
                     {
                         Console.BackgroundColor = ConsoleColor.DarkGray;
                     }
+
                     else
                     {
                         Console.BackgroundColor = ConsoleColor.Gray;
                     }
                     Console.Write("  ");
                 }
+
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.WriteLine($"{i + 1}");
             }
 
             Console.Write("  ");
+
             for (int i = 0; i < size; i++)
             {
                 Console.Write($"{(char)(i + 97)} ");
             }
-            Console.WriteLine();
+
+            Console.ReadLine();
         }
     }
 }

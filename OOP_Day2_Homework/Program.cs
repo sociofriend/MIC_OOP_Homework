@@ -11,6 +11,7 @@ class Program
         //CheckmateBoard_2dimensionArray objB = new CheckmateBoard_2dimensionArray();
         //objB.PrintCheckmatBoard2d();
         #endregion
+        Console.WriteLine();
     }
 }
 

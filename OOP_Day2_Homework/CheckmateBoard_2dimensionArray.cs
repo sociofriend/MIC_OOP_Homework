@@ -17,6 +17,7 @@ namespace ChessVersion1LilitAvdalyan20230508002
             }
             Console.WriteLine();
         }
+
         void PrintBoardBody()
         {
             for (int i = 0; i < 8; i++)
@@ -44,6 +45,7 @@ namespace ChessVersion1LilitAvdalyan20230508002
             Console.BackgroundColor = lightCell;
             Console.Write("  ");
         }
+
         void PrintDark()
         {
             Console.BackgroundColor = darkCell;
@@ -55,9 +57,8 @@ namespace ChessVersion1LilitAvdalyan20230508002
             PrintFirstLastRow();
             PrintBoardBody();
             PrintFirstLastRow();
-            Console.ReadKey();
+            Console.WriteLine();
         }
-
     }
 }
 
