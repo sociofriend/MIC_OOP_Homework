@@ -57,7 +57,7 @@ namespace ChessVersion1LilitAvdalyan20230508002
             PrintFirstLastRow();
             PrintBoardBody();
             PrintFirstLastRow();
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }
