@@ -5,6 +5,7 @@ class Program
     {
         FigurePreview objFig = new FigurePreview();
         objFig.GetFigure();
+
     }
 }
 
