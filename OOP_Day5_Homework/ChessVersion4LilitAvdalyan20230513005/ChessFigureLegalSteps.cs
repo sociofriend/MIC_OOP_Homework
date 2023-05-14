@@ -7,7 +7,7 @@ namespace ChessVersion4LilitAvdalyan20230513005;
 public class ChessFigureLegalSteps 
 {
 	
-    // keep hotkeys for input in enum, oversee the combinations(Eg.(18 = 16 byte + 2 byte))
+    // keep hotkeys for input in enum, oversee the combinations(Eg.(18 = 16 byte + 2 byte)) ask
 
     /// <summary>
     /// Runs GetFigure(), GetCoordinates() and PrintBoard(string figure, int[] coordinates) methods.
