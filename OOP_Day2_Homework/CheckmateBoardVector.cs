@@ -54,8 +54,7 @@ namespace ChessVersion1LilitAvdalyan20230508002
             {
                 Console.Write($"{(char)(i + 97)} ");
             }
-
-            Console.ReadLine();
+            Console.WriteLine();
         }
     }
 }

@@ -70,7 +70,7 @@ namespace ChessVersion2LilitAvdalyan20230510003
             PrintFirstLastRow();
             PrintBoardBody(figure, columnCommand, rowCommand);
             PrintFirstLastRow();
-            
+            Console.WriteLine();
             GetFigure();
         }
 

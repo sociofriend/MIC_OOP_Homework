@@ -7,7 +7,6 @@ namespace ChessVersion3ConsoleLilitAvdalyan20230511004
     {
 
         // keep hotkeys for input in enum, oversee the combinations(Eg.(18 = 16 byte + 2 byte))
-        // Bishop: show legal steps on board
 
         /// <summary>
         /// Runs GetFigure(), GetCoordinates() and PrintBoard(string figure, int[] coordinates) methods.
@@ -76,7 +75,7 @@ namespace ChessVersion3ConsoleLilitAvdalyan20230511004
         /// <param name="coordinates"></param>
         void PrintBoard(string figure, int[,] coordinates)
         {
-            ChessLib.BoardPrinter(figure, coordinates);
+            ChessLib.BoardPrinterWithFigure(figure, coordinates);
         }
     }
 }

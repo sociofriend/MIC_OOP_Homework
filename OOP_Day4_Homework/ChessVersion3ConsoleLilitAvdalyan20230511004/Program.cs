@@ -5,6 +5,5 @@ class Program
     {
         Chess objBoard = new Chess();
         objBoard.RunChess();
-        //
     }
 }

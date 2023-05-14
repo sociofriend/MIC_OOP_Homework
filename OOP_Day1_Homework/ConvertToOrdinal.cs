@@ -70,8 +70,7 @@ namespace SixTasksLilitAvdalyan20230510001
                 else 
                 {
                     Console.WriteLine(num + "th");
-                    Console.WriteLine();
-                    GetUserInput();
+
                 }
             }
                 
