@@ -77,7 +77,25 @@ public class ChessFigureLegalSteps
     /// <param name="coordinates"></param>
     void PrintBoard(string figure, int[,] coordinates)
     {
-        ChessLib.BoardPrinterWithLegalSteps(figure, coordinates);
-        RunChess();
+        switch(figure)
+        {
+            //case "K": 
+            //    break;
+            case "R":
+                Rook.BoardPrinterWithLegalSteps(figure, coordinates);
+                RunChess();
+                break;
+            //case "N":
+            //    break;
+            case "B":
+                Bishop.BoardPrinterWithLegalSteps(figure, coordinates);
+                RunChess();
+                break;
+            case "Q":
+                RunChess();
+                Queen.BoardPrinterWithLegalSteps(figure, coordinates);
+                break;
+        }
+        
     }
 }
