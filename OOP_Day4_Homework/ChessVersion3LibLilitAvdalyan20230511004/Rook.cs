@@ -3,6 +3,11 @@ namespace ChessVersion3LibLilitAvdalyan20230511004
 {
     public class Rook
     {
+        /// <summary>
+        /// Prints the board with Rook figure and it's legal steps.
+        /// </summary>
+        /// <param name="figure">String type variable.</param>
+        /// <param name="coordinates">Array of integers with i,j coordinates of the figure on the board.</param>
         public static void BoardPrinterWithLegalSteps(string figure, int[,] coordinates)
         {
             //variables

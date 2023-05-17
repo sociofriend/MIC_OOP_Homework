@@ -6,9 +6,6 @@ namespace ChessVersion4LilitAvdalyan20230513005;
 
 public class ChessFigureLegalSteps 
 {
-	
-    // keep hotkeys for input in enum, oversee the combinations(Eg.(18 = 16 byte + 2 byte)) ask
-
     /// <summary>
     /// Runs GetFigure(), GetCoordinates() and PrintBoard(string figure, int[] coordinates) methods.
     /// Prints the board with given figure on given coordinates' cell.
@@ -23,7 +20,7 @@ public class ChessFigureLegalSteps
     /// <summary>
     /// Gets user input for chess figure to print on the board.Type: string. 
     /// </summary>
-    /// <returns></returns>
+    /// <returns>Returns string type value.</returns>
     string GetFigure()
     {
         Console.WriteLine("Choose a figure: press R for rook, N " +
@@ -48,7 +45,7 @@ public class ChessFigureLegalSteps
     /// <summary>
     /// Gets user input on coordinates for identifying on which chell to print the figure.
     /// </summary>
-    /// <returns></returns>
+    /// <returns>Returns a two-dimensional array of integers.</returns>
     int[,] GetCoordinates()
     {
         int[,] coordinates = new int[8, 8];
@@ -92,8 +89,8 @@ public class ChessFigureLegalSteps
                 RunChess();
                 break;
             case "Q":
-                RunChess();
                 Queen.BoardPrinterWithLegalSteps(figure, coordinates);
+                RunChess();
                 break;
         }
         

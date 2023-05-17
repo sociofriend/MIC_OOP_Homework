@@ -7,8 +7,8 @@ namespace ChessVersion3LibLilitAvdalyan20230511004
         /// Prints the board with 10x10 size with given figure on given coordinates i,j 
         /// and legal steps of the figure from the given coordinates.
         /// </summary>
-        /// <param name="figure"></param>
-        /// <param name="coordinates"></param>
+        /// <param name="figure">String type variable.</param>
+        /// <param name="coordinates">Array of integers with i,j coordinates of the figure on the board.</param>
         public static void BoardPrinterWithLegalSteps(string figure, int[,] coordinates)
         {
             int figureCoordinatesSum = 0;

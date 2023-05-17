@@ -6,8 +6,8 @@ namespace ChessVersion3LibLilitAvdalyan20230511004
         /// <summary>
         /// Prints the figure of Queen on the board with the given coordinates, and available legal steps.
         /// </summary>
-        /// <param name="figure">string type</param>
-        /// <param name="coordinates">transfered thoru an array of integers.</param>
+        /// <param name="figure">String type variable.</param>
+        /// <param name="coordinates">Array of integers with i,j coordinates of the figure on the board.</param>
         public static void BoardPrinterWithLegalSteps(string figure, int[,] coordinates)
         {
             //variables

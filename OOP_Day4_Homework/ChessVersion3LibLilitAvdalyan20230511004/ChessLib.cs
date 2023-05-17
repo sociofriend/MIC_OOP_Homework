@@ -9,8 +9,8 @@ public class ChessLib
     /// Sets background colorwith given coordinates i, j set in two-dimensional array
     /// </summary>
     /// <param name="cellValue"></param>
-    /// <param name="i"></param>
-    /// <param name="j"></param>
+    /// <param name="i">int type variable.</param>
+    /// <param name="j">int type variable.</param>
     public static void BackgroundSetter(string cellValue, int i, int j)
     {
         if ((i + j) % 2 == 0)
@@ -29,8 +29,8 @@ public class ChessLib
     /// <summary>
     /// Prints the board with 10x10 size, given figure on given coordinates i,j.
     /// </summary>
-    /// <param name="figure"></param>
-    /// <param name="coordinates"></param>
+    /// <param name="figure">String type variable.</param>
+    /// <param name="coordinates">Array of integers with i,j coordinates of the figure on the board.</param>
     public static void BoardPrinterWithFigure(string figure, int[,] coordinates)
         {
         Console.BackgroundColor = ConsoleColor.White;
@@ -51,8 +51,6 @@ public class ChessLib
             Console.WriteLine(i + 1);
         }
         Console.WriteLine("  A B C D E F G H  ");
-    }
-
-    
+    }   
 }
 
